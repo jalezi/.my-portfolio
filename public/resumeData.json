@@ -3,7 +3,10 @@
     "name": "Jaka Daneu",
     "occupation": "Mongo Express React Node developer.",
     "description": "Hire me and I will make your life easier!",
-    "image": "imagesJaka.jpg",
+    "image": [
+      "imagesJaka.webp",
+      "imagesJaka.jpg"
+    ],
     "bio": "My name is Jaka, I'm a MERN Developer and I will make your day easier! I used to play pro basketball in Europe. I recently rediscovered my passion for programming and here I am now.",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "jakad@me.com",
@@ -90,12 +93,18 @@
         "title": "Travel Expenses App",
         "url": "https://travel-expenses-app.herokuapp.com/",
         "category": "App to keep track of your travel expenses (ExpressJS, MongoDB, NodeJS, HBS)",
-        "image": "travel-expenses-app.png"
+        "image": [
+          "travel-expenses-app.webp",
+          "travel-expenses-app.png"
+        ]
       },
       {
         "title": "MERN Stack Amazon Clone",
         "category": "Amazon Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "jalezi-amazon-clone.png",
+        "image": [
+          "jalezi-amazon-clone.webp",
+          "jalezi-amazon-clone.png"
+        ],
         "url": ""
       }
     ]

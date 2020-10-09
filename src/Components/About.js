@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class About extends Component {
   render() {
+    let picture;
     if (this.props.data) {
       var name = this.props.data.name;
-      var profilepic = 'images/' + this.props.data.image;
       var bio = this.props.data.bio;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
@@ -13,18 +13,31 @@ class About extends Component {
       var phone = this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
+
+      const profileImage = this.props.data.image.map(image => {
+        return `images/${image}`;
+      });
+      const fallbackImage = profileImage.pop();
+      const fallbackImageElement = (
+        <img alt="My Profile" className="profile-pic" src={fallbackImage} />
+      );
+
+      const pictureSourceImages = profileImage.map(image => {
+        return <source key={image} srcSet={image} />;
+      });
+
+      picture = (
+        <picture className="profile-pic">
+          {pictureSourceImages}
+          {fallbackImageElement}
+        </picture>
+      );
     }
 
     return (
       <section id="about">
         <div className="row">
-          <div className="three columns">
-            <img
-              className="profile-pic"
-              src={profilepic}
-              alt="My Profile Pic"
-            />
-          </div>
+          <div className="three columns">{picture}</div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
 
