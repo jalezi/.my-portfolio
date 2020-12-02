@@ -90,6 +90,15 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Covid Tracker",
+        "url": "https://covid-tracker-novel-api.netlify.app/",
+        "category": "Fetch Covid19 data from https://disease.sh/docs/#/COVID-19",
+        "image": [
+          "covid-tracker.webp",
+          "covid-tracker.png"
+        ]
+      },
+      {
         "title": "Travel Expenses App",
         "url": "https://travel-expenses-app.herokuapp.com/",
         "category": "App to keep track of your travel expenses (ExpressJS, MongoDB, NodeJS, HBS)",
