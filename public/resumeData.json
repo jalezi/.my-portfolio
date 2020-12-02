@@ -99,6 +99,15 @@
         ]
       },
       {
+        "title": "Landing Pages",
+        "url": "https://jalezi.github.io/landing-pages/",
+        "category": "Landign Pages Examples",
+        "image": [
+          "landing-pages.webp",
+          "landing-pages.jpg"
+        ]
+      },
+      {
         "title": "Travel Expenses App",
         "url": "https://travel-expenses-app.herokuapp.com/",
         "category": "App to keep track of your travel expenses (ExpressJS, MongoDB, NodeJS, HBS)",
