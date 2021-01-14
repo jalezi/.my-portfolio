@@ -90,6 +90,15 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Covid-19 Sledilnik Social",
+        "url": "https://sledilnik-social.netlify.app/",
+        "category": "Covid-19 Sledilnik API's extract for social media publish action",
+        "image": [
+          "sledilnik-social-0_2_0.webp",
+          "sledilnik-social-0_2_0.png"
+        ]
+      },
+      {
         "title": "Covid Tracker",
         "url": "https://covid-tracker-novel-api.netlify.app/",
         "category": "Fetch Covid19 data from https://disease.sh/docs/#/COVID-19",
