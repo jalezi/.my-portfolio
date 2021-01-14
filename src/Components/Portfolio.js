@@ -30,7 +30,7 @@ class Portfolio extends Component {
                 href={projects.url}
                 title={projects.title}
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 {picture}
                 <div className="overlay">
